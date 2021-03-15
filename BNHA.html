@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BNHA</title>
+</head>
+<body>
+<script src="jquery.min.js"></script>
+<script src="Display.js"></script>
+<script>
+    $.getJSON('./details.json', data => {
+        display(data)
+        console.log(data['_No. 1'])
+    })
+</script>
+</body>
+</html>
